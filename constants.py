@@ -7,7 +7,7 @@ columns_to_drop = ['datesSupplyCollateral',
                    'datesReimbursement',
                    'datesWithdrawCollateral',
                    "Calendar",
-                   # "user_id",
+                   "user_id",
                    'timeUTCFirstAnyTransactionAccount']
 str_columns = [
     # 'user_id',
@@ -17,15 +17,3 @@ str_columns = [
     # 'timeStampsWithdrawCollateral',
     'timeStampFirstAnyTransactionAccount', ]
 
-# missing_value_keys = ['NumTransactions',
-#                       'NumReimbursements',
-#                       'MeanReimbursements',
-#                       'totalReimbursements',
-#                       'MeanSupplyCollateral',
-#                       'NumSupplyCollateral',
-#                       'totalSupplyCollateral',
-#                       'MeanTimeLoans',
-#                       'totalTimeloans',
-#                       'MeanLoans',
-#                       'NumLoans',
-#                       'totalLoans']
